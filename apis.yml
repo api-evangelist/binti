@@ -1,8 +1,14 @@
 aid: binti
 name: Binti
-description: 'Binti is a company surfaced as a portfolio company of cowboy-ventures and added to the API
-  Evangelist network as a stub for enrichment. Sector: govtech. This profile is a lead awaiting the enrichment
-  pipeline.'
+description: >-
+  Binti builds cloud-based, mobile-friendly software for child welfare and foster care agencies, offered as a
+  modular Comprehensive Child Welfare Information System (CCWIS) covering licensing, placements, case management,
+  intake, investigations, eligibility, payments, and family finding & engagement. Since 2017 it has scaled to
+  serve over 450 government agencies across 34 states and Washington, DC, including statewide implementations,
+  and supports roughly half of the nation's child welfare system. Binti exposes a private, bi-directional
+  integration API so agencies can connect its modules to their existing systems of record; the platform is
+  HIPAA-compliant with a Vanta-hosted Trust Center. Binti is headquartered in Oakland, California and is a
+  portfolio company of Cowboy Ventures. This profile was enriched by the API Evangelist pipeline.
 url: https://raw.githubusercontent.com/api-evangelist/binti/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -10,12 +16,30 @@ x-backed-by:
 - cowboy-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://avatars.githubusercontent.com/u/6666946?v=4
 tags:
 - Company
 - Govtech
+- Child Welfare
+- Foster Care
+- Government
+- Case Management
+- Social Services
+- CCWIS
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,38 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/binti-domain-security.yml
 - type: Website
   url: https://binti.com
+- type: Blog
+  url: https://binti.com/binti-blog/
+- type: News
+  url: https://binti.com/news/
+- type: Support
+  url: https://binti.zendesk.com/hc/en-us
+- type: HelpCenter
+  url: https://binti.zendesk.com/hc/en-us
+- type: ChangeLog
+  url: https://updates.binti.com/
+- type: TrustCenter
+  url: security/binti-trust-center.yml
+- type: Compliance
+  url: https://trust.binti.com/
+- type: TermsOfService
+  url: https://binti.com/terms/
+- type: PrivacyPolicy
+  url: https://binti.com/privacy/
+- type: Login
+  url: https://family.binti.com/users/login
+- type: SignUp
+  url: https://binti.com/request-demo/
+- type: GitHubOrganization
+  url: https://github.com/binti-family
+- type: Careers
+  url: https://binti.com/careers/
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence

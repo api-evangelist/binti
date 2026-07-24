@@ -1,0 +1,26 @@
+generated: '2026-07-18'
+method: searched
+probe: false
+url: https://trust.binti.com/
+platform: Vanta
+note: >-
+  Binti publishes a live, Vanta-hosted Trust Center at https://trust.binti.com/. The full
+  certification set and evidence documents are gated behind an access request (the page is a
+  client-rendered SPA), so the certifications below are captured from corroborating public
+  sources rather than scraped from the gated report. HIPAA compliance is stated publicly; SOC 2
+  Type II is described in Binti's own application-security role postings.
+certifications:
+- name: HIPAA
+  confidence: high
+- name: SOC 2 Type II
+  confidence: medium
+evidence:
+- source: https://trust.binti.com/
+  kind: trust-center
+  detail: Live Vanta Trust Center (HTTP 200); certification/evidence library gated behind access request.
+- source: https://binti.com/binti-ai/
+  kind: compliance-claim
+  detail: "Binti states it is HIPAA-compliant and that its AI models never store or train on customer data."
+- source: https://jobs.ashbyhq.com/binti/
+  kind: security-role
+  detail: "Binti Application Security Engineer role describes evidence collection for SOC 2 Type II and HIPAA."
