@@ -3,12 +3,12 @@
   "feeds": [
     {
       "source": "https://binti.com",
-      "feed_url": "https://binti.com/feed/",
+      "feed_url": "https://binti.com",
       "title": "",
-      "saved": 5,
-      "method": "discovered"
+      "saved": 0,
+      "method": "none"
     }
   ],
   "post_count": 5,
-  "fetched": "2026-07-20T13:31:34Z"
+  "fetched": "2026-08-01T15:49:00Z"
 }
