@@ -64,6 +64,88 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Binti is a company surfaced as a portfolio company of cowboy-ventures and added to the API Evangelist network as a stub for enrichment. Sector: govtech. This profile is a lead awaiting the enrichment pipeline.
+Binti builds cloud-based, mobile-friendly software for child welfare and foster care agencies, offered as a modular Comprehensive Child Welfare Information System (CCWIS) covering licensing, placements, case management, intake, investigations, eligibility, payments, and family finding & engagement. Since 2017 it has scaled to serve over 450 government agencies across 34 states and Washington, DC, including statewide implementations, and supports roughly half of the nation's child welfare system. Binti exposes a private, bi-directional integration API so agencies can connect its modules to their existing systems of record; the platform is HIPAA-compliant with a Vanta-hosted Trust Center. Binti is headquartered in Oakland, California and is a portfolio company of Cowboy Ventures. This profile was enriched by the API Evangelist pipeline.
 
-Backed by: cowboy-ventures — https://binti.com
+**Areas:** Company · GovTech · Child Welfare · Foster Care · Government · Case Management · Social Services · CCWIS
+
+## Binti on APIs.io
+
+Everything profiled for Binti is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/binti/](https://apis.io/providers/binti/)** — or go straight to one of the APIs or properties below.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (2)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Binti Domain Security](https://apis.io/security/binti/binti-domain-security/)
+- [Binti Trust Center](https://apis.io/security/binti/binti-trust-center/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://binti.com)
+- [Sign up](https://binti.com/request-demo/)
+- [Support](https://binti.zendesk.com/hc/en-us)
+- [Changelog](https://updates.binti.com/)
+- [Blog](https://binti.com/binti-blog/)
+- [Compliance](https://trust.binti.com/)
+- [Terms of service](https://binti.com/terms/)
+- [Privacy policy](https://binti.com/privacy/)
+- [GitHub](https://github.com/binti-family)
+
+## API Evangelist rating
+
+**Kin Score 17.5** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 49.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 2.6 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 50.0 |
+
+**Agent readiness 0.0** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | — |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 18.6** — Government & Public Sector
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/binti/](https://apis.io/providers/binti/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Binti: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/binti/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
